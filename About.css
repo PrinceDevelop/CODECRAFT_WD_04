@@ -1,0 +1,34 @@
+body{
+    background-image: url("images.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    text-align: center;
+}
+.navbar{
+    top: -15%;
+    left: -10%;
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    margin-top: -1%;
+    margin-left: -1%;
+    margin-right: 0;
+    background-color: aqua;
+    width: 97.3%;
+}
+#first{
+    color: red;
+}
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #f1f1f1;
+    padding: 10px 20px;
+    text-align: center;
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1); /* Optional: Add a slight shadow for visual appeal */
+    z-index: 1000; /* Ensures the footer stays above other content */
+}
